@@ -45,7 +45,7 @@ function Header(props) {
           
             <NavItem  className='stakingdiv'>
               <NavLink href="">
-                <button className="stake-btn">Discover</button>
+                <button className="stake-btn">AIShop</button>
               </NavLink>
             </NavItem>
           </Nav>
