@@ -9,7 +9,7 @@ function Legacy() {
   const sendMessage = async () => {
     setLoading(true);
     try {
-        const response = await axios.post('http://localhost:3000/generate', { message: inputMessage });
+        const response = await axios.post('https://legacyserver-1.onrender.com/generate', { message: inputMessage });
         let responseData = response.data.response.response.candidates[0].content.parts[0].text;
         
         // Remove asterisks and hash symbols from the response
